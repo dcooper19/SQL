@@ -118,4 +118,3 @@ where city.city in ('Saint-Denis', 'Cape Coral', 'Santa Brbara dOeste', 'Apeldoo
 group by city.city, payment.customer_id, customer.first_name, customer.last_name, Country.country, payment.amount
 order by "Total Amount Paid" DESC
 limit 10
-
